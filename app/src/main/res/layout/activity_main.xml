@@ -7,27 +7,28 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="1787dp"
-        android:layout_height="3306dp"
+        android:id="@+id/imageView7"
+        android:layout_width="1836dp"
+        android:layout_height="3485dp"
+        app:srcCompat="@drawable/bg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.974"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.615"
-        app:srcCompat="@drawable/bg" />
+        tools:layout_editor_absoluteX="-293dp"
+        tools:layout_editor_absoluteY="-114dp" />
 
     <ProgressBar
         android:id="@+id/progressBar"
         style="?android:attr/progressBarStyle"
-        android:layout_width="258dp"
-        android:layout_height="121dp"
-        android:indeterminateTint="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:indeterminateTint="@android:color/holo_red_light"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.854" />
+        app:layout_constraintVertical_bias="0.537" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
